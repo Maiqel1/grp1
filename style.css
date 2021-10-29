@@ -1,0 +1,433 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+	 /* background: linear-gradient(to right, rgba(1,95,189,0.7), rgba(60, 200, 228, 0.7)); */
+	background-image:url(img/header.jpg);
+    height: 550px;
+    width: 100%;
+	background-size: cover;
+	background-position: center center;    
+}
+body{
+    overflow-x: hidden;
+}
+/* Navigation */
+.nav-bar a{
+    color: white;
+}
+.nav-bar .links{
+    margin-left: 500px;
+}
+.header-input{
+	max-width: 700px;
+	background: #ffffff;
+	border-radius: 5px;
+	height: 150px;
+	box-shadow: 0 10px 10px #C4CAD3;
+}
+.space{
+    height: 150px;
+}
+/* body */
+#body{
+    margin: 100px 0px;
+    
+}
+#body h1{
+    font-size: 30px;
+	font-weight: 400;
+	color: #727272;
+	display: block;
+	margin: 0 145px 20px 0px;
+	text-align: center
+}
+
+.number{
+    text-align: right;
+}
+.Content{
+    color: #444;
+    font-size: 16px;
+	font-weight: 600;
+}
+.image{
+    background-size: cover;
+}
+.header-container{
+	background: linear-gradient(to right, rgba(1,95,189,0.7), rgba(60, 200, 228, 0.7));
+	height: 550px;
+
+}
+
+section{
+	margin-top: -500px;
+}
+.image  div{
+    background: linear-gradient(to right, rgba(1,95,189,0.7), rgba(60, 200, 228, 0.7));
+	height: 150px;
+	line-height: 150px;
+	padding: 0 15px;
+	overflow: hidden;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+/* footer */
+.footer{
+    height: 200px;
+    background-color: #444;
+    color: white;
+}
+
+.footer ul li{
+   list-style: none;
+}
+
+.search{
+	width: 400px !important;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .nav-bar .links{
+        margin-left: 0px;
+    }
+
+      .header-input{
+          width: 90%;
+      }
+
+     .footer{
+         height: 300px;
+     }
+
+	 .search{
+		width: 300px !important;
+	}
+}
+
+/* Style inputs with type="text", select elements and textareas */
+#fname[type=text], #lname[type=text], input[type=email], textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  #submit-message[type=submit] {
+	background-color: rgba(24, 172, 202, 0.89);
+	color: white;
+	padding: 20px 50px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  #submit-message[type=submit]:hover {
+	background-color:rgb(34, 157, 182);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 50px;
+	width: 70%;
+	margin:0 auto;
+	font-size: 18px;
+  }
+
+.newsletter-container{
+	padding: 30px 0;
+	background-color: #323A45;
+	border-bottom: 1px solid #EEEEEE;
+}
+section.newsletter{
+	margin:0 auto;
+	max-width: 700px;
+	width: calc(100% - 40px);
+	border-radius: 5px;
+	padding: 30px 50px;
+}
+#newsletter_form input[type="email"]{
+	width: calc(100% - 120px);
+	outline: none;
+	border: none;
+	height: 40px;
+	line-height: 36px;
+	padding: 2px 20px 2px 60px;
+	background: #f0f0f0;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 500;
+	display: block;
+	float: left;
+	background-image: url(../img/search.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 20px center;
+}
+#newsletter_form input[type="submit"]{
+	width: 110px;
+	margin-top: 5px;
+	margin-left: 10px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 500;
+	display: block;
+	float: left;
+	background: #30A9D7;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* About Page*/
+.container{
+	padding: 50px 100px;
+	color: rgb(53, 52, 52);
+}
+.row{
+	width: 90%;
+}
+hr.line{
+	border: 1px solid rgba(1,95,189,0.7);
+	width: 22%;
+	margin: 5px 0px 15px 0; /*top right bottom left*/
+}
+hr.line1{
+	border: 1px solid rgba(1,95,189,0.7);
+	width: 61%;
+	margin: 5px 0px 15px 0; /*top right bottom left*/
+}
+.row1{
+	width: 80%;
+	padding-top: 10px;
+	display: flex;
+	/* border: 1px solid #21414e; */
+	/* margin: 0 auto */
+}
+p.sub-p{
+	font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+	background-color: #fff;
+	margin: 10px;
+	padding: 20px;
+	/* height: 300px; */
+	width: 300px;
+	border-radius: 25px 0;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); 
+}
+/*About Page ends Here*/
+
+@media only screen and (max-width: 800px) {
+	div.container h1{
+	  font-size: 30px;
+	}
+	.container{
+		display: block;
+		padding: 20px 0;
+		color: rgb(53, 52, 52);
+	}
+	.row{
+		width: 100%;
+	}
+	hr.line{
+		width: 36%;
+	}
+	.row1{
+		margin:10px auto ;
+		width: 80%;
+		padding-top: 10px;
+		display: block;
+		/* border: 1px solid #21414e; */
+		/* margin: 0 auto */
+	}
+  }
+
+.card-group{
+	display: flex;
+	margin-top: 5px;
+	font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-img-top{
+	width: 100%;
+	
+}
+
+/* Style inputs with type="text", select elements and textareas */
+#fname[type=text], #lname[type=text], input[type=email], textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  #submit-message[type=submit] {
+	background-color: rgba(24, 172, 202, 0.89);
+	color: white;
+	padding: 20px 50px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  #submit-message[type=submit]:hover {
+	background-color:rgb(34, 157, 182);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 50px;
+	width: 70%;
+	margin:0 auto;
+	font-size: 18px;
+  }
+
+.newsletter-container{
+	padding: 30px 0;
+	background-color: #323A45;
+	border-bottom: 1px solid #EEEEEE;
+}
+section.newsletter{
+	margin:0 auto;
+	max-width: 700px;
+	width: calc(100% - 40px);
+	border-radius: 5px;
+	padding: 30px 50px;
+}
+#newsletter_form input[type="email"]{
+	width: calc(100% - 120px);
+	outline: none;
+	border: none;
+	height: 40px;
+	line-height: 36px;
+	padding: 2px 20px 2px 60px;
+	background: #f0f0f0;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 500;
+	display: block;
+	float: left;
+	background-image: url(../img/search.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 20px center;
+}
+#newsletter_form input[type="submit"]{
+	width: 110px;
+	margin-top: 5px;
+	margin-left: 10px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 500;
+	display: block;
+	float: left;
+	background: #30A9D7;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* About Page*/
+.container{
+	padding: 50px 100px;
+	color: rgb(53, 52, 52);
+}
+.row{
+	width: 90%;
+}
+hr.line{
+	border: 1px solid rgba(1,95,189,0.7);
+	width: 22%;
+	margin: 5px 0px 15px 0; /*top right bottom left*/
+}
+hr.line1{
+	border: 1px solid rgba(1,95,189,0.7);
+	width: 61%;
+	margin: 5px 0px 15px 0; /*top right bottom left*/
+}
+.row1{
+	width: 80%;
+	padding-top: 10px;
+	display: flex;
+	/* border: 1px solid #21414e; */
+	/* margin: 0 auto */
+}
+p.sub-p{
+	font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+	background-color: #fff;
+	margin: 10px;
+	padding: 20px;
+	/* height: 300px; */
+	width: 300px;
+	border-radius: 25px 0;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); 
+}
+/*About Page ends Here*/
+
+@media only screen and (max-width: 800px) {
+	div.container h1{
+	  font-size: 30px;
+	}
+	.container{
+		display: block;
+		padding: 20px 0;
+		color: rgb(53, 52, 52);
+	}
+	.row{
+		width: 100%;
+	}
+	hr.line{
+		width: 36%;
+	}
+	.row1{
+		margin:10px auto ;
+		width: 80%;
+		padding-top: 10px;
+		display: block;
+		/* border: 1px solid #21414e; */
+		/* margin: 0 auto */
+	}
+  }
+
+.card-group{
+	display: flex;
+	margin-top: 5px;
+	font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-img-top{
+	width: 100%;
+	
+}
